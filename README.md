@@ -7,13 +7,13 @@ Lightcode is a VSCode extension to debug iOS apps on iPhone - a lightweight alte
 - **Run**: build the app, install to iPhone, launch the app to start debugging.
 - **Attach**: with the app already installed, launch the app to start debugging right away.
 
-![](./images/launchjson.png)
+![image of launch.json](images/launchjson.png)
 
 **Debug features**:
 - Breakpoints, callstacks, inspect local variables.
 - Use `po` to check variables.
 
-![](./images/breakpoint.png)
+![screenshot of breakpoint](images/breakpoint.png)
 
 # Setup
 ## Quickstart
@@ -44,7 +44,7 @@ Sample iOS app to try it out: [ObjcSampleApp](https://github.com/khitcher/lightc
 }
 ```
 * Open the project folder with VSCode; in the "Run and Debug" view, click the Run button.
-![](./images/runbuttonlocation.png)
+![image of run button](images/runbuttonlocation.png)
 
 ## `launch.json` details
 
