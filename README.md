@@ -63,7 +63,7 @@ The `Run` and `Attach` configurations share the same 6 fields. Here is the defin
 - `appBundleId`: the `Bundle Identier` of the iOS project, which can be found in Xcode.
 
 # Feedback
-Feedback on how to improve the extension is very welcome!
+Feedback on how to improve the extension is really appreciated
 * [Github issues](https://github.com/khitcher/lightcode-doc/issues)
 * Email me: kennyhitcher at gmail dot com
 
