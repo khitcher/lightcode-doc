@@ -64,10 +64,10 @@ The `Run` and `Attach` configurations share the same 6 fields. Here is the defin
 - `appBundleId`: the `Bundle Identier` of the iOS project, which can be found in Xcode.
 
 ### 2.2 Optional fields
-- `sourceMap`: if you use a build system (such as BUCK), location of a source file may change before and after build. `sourceMap` is a dictionary to map from **post-build** path to **pre-build path**. For example, if the build system always adds a prefix "/BUILD_DIR" to output symbols, you can use the following `sourceMap`:
+- `sourceMap`: if you use a build system (such as BUCK), location of a source file may change before and after build. `sourceMap` is a dictionary to map from **post-build** path to **pre-build path**. For example, if the build system always adds a prefix "/build_out/base" to output symbols, you can use the following `sourceMap`:
 ```
 "sourceMap": {
-  "/BUILD_DIR": "${workspaceFolder}"
+  "/build_out/base": "${workspaceFolder}"
 }
 ```
 
