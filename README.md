@@ -17,7 +17,7 @@ Lightcode is a VSCode extension to debug iOS apps on iPhone - a lightweight alte
 
 # Setup
 ## 1. Quickstart
-Sample iOS app to try it out: [ObjcSampleApp](https://github.com/khitcher/lightcode-doc/tree/master/ObjcSxampleApp)
+Sample iOS app to try it out: [ObjcSampleApp](https://github.com/khitcher/lightcode-doc/tree/master/ObjcSampleApp)
 * Create [launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) in your project folder. This is just a `./vscode/launch.json` in the project's root folder.
 * Replace the content of `launch.json` as below, make sure to update `<Your app's name>` and `<Your app bundle ID>`:
 ```
