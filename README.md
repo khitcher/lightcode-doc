@@ -50,6 +50,7 @@ Sample iOS app to try it out: [ObjcSampleApp](https://github.com/khitcher/lightc
 
 To use this extension, you just need to properly write the `configurations` array in `launch.json`. VSCode automatically creates a button for each item in the `configurations` array. For example, when an item has `"name": "Run"`, a `Run` button will show up in VSCode.
 
+### 2.1 Required fields
 The `Run` and `Attach` configurations share the same 6 fields. Here is the definition of each field:
 - `name`: just a name of the configuration. It will show up as button in VSCode "Run and Debug" view.
 - `type`: set it as `lightcode`. This is to let VSCode know that you want to use this extension to debug the iOS project.
@@ -61,6 +62,14 @@ The `Run` and `Attach` configurations share the same 6 fields. Here is the defin
   - When using Xcode's default build system, this is usually `xcodebuild -configuration Debug -sdk iphoneos -allowProvisioningUpdates`
   - When using [BUCK](buck.build), this is usually `buck build folder:target`
 - `appBundleId`: the `Bundle Identier` of the iOS project, which can be found in Xcode.
+
+### 2.2 Optional fields
+- `sourceMap`: if you use a build system (such as BUCK), location of a source file may change before and after build. `sourceMap` is a dictionary to map from **post-build** path to **pre-build path**. For example, if the build system always adds a prefix "/BUILD_DIR" to output symbols, you can use the following `sourceMap`:
+```
+"sourceMap": {
+  "/BUILD_DIR": "${workspaceFolder}"
+}
+```
 
 # Feedback
 Feedback on how to improve the extension is really appreciated
