@@ -1,4 +1,3 @@
-
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -7,7 +6,8 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor systemBlueColor];
     NSInteger v = [self _value];
@@ -18,6 +18,5 @@
 {
     return 20;
 }
-
 
 @end

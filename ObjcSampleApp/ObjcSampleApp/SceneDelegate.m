@@ -1,4 +1,3 @@
-
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()
