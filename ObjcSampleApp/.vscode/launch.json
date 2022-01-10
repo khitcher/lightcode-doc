@@ -10,7 +10,7 @@
       "request": "launch",
       "program": "${workspaceFolder}/build/Debug-iphoneos/ObjcSampleApp.app",
       "buildCommand": "xcodebuild -configuration Debug -sdk iphoneos -allowProvisioningUpdates",
-      "appBundleId": "lightcode.ObjcSxampleApp"
+      "appBundleId": "lightcode.ObjcSampleApp"
     },
     {
       "name": "Attach",
