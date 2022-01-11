@@ -56,7 +56,7 @@ The `Run` and `Attach` configurations share the same 6 fields. Here is the defin
 - `type`: set it as `lightcode`. This is to let VSCode know that you want to use this extension to debug the iOS project.
 - `request`: 2 allowed values - `launch` to build, install, and launch the app; `attach` to launch the app directly, skipping build and install.
 - `program`: the location of the build output (the `YourAppName.app` file).
-  - When using Xcode's default build system, this is usually `"${workspaceFolder}/build/Debug-iphoneos/<Your app's name>.app"`. `${workspaceFolder}` is a VSCode convenient variable to represent ("the folder where VSCode was opened")
+  - When using Xcode's default build system, this is usually `"${workspaceFolder}/build/Debug-iphoneos/<Your app's name>.app"`. `${workspaceFolder}` is a VSCode convenient variable to represent "the folder where VSCode was opened".
   - When using [BUCK](buck.build), this is usually `"${workspaceFolder}/buck-out/...`
 - `buildCommand`: the command to build your iOS app.
   - When using Xcode's default build system, this is usually `xcodebuild -configuration Debug -sdk iphoneos -allowProvisioningUpdates`
