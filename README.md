@@ -1,8 +1,8 @@
-# Overview
+# Summary
 
 Lightcode is a VSCode extension to debug iOS apps on iPhone - a lightweight alternative to Xcode.
 
-## Features
+# Features
 **Two common modes**:
 - **Run**: build the app, install to iPhone, launch the app to start debugging.
 - **Attach**: with the app already installed, launch the app to start debugging right away.
