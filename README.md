@@ -71,6 +71,9 @@ The `Run` and `Attach` configurations share the same 6 fields. Here is the defin
 }
 ```
 
+# FAQ
+- TODO: build systems & VSCode IntelliSense
+
 # Feedback
 Feedback on how to improve the extension is really appreciated
 * [Github issues](https://github.com/khitcher/lightcode-doc/issues)
